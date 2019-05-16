@@ -1,4 +1,4 @@
-size(500,500)
+size(500, 500)
 grid = loadImage('grid.png')
 image(grid, 0, 0)
 noFill()
