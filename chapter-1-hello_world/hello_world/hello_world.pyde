@@ -1,4 +1,4 @@
-# dimension of the display window in units of pixels
+# dimensions of the display window measured in pixels
 size(500, 500)
 background('#004477')
 print('Hello, World!') # writes hello world to the console area
