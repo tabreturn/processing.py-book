@@ -6,13 +6,13 @@ stroke('#FFFFFF')
 strokeWeight(3)
 
 beginShape() # begins recording vertices for a shape ...
-vertex(100, 100)
-vertex(200, 100)
-vertex(200, 200)
-vertex(100, 200)
+vertex(100,100)
+vertex(200,100)
+vertex(200,200)
+vertex(100,200)
 endShape()   # stops recording
 
-# s-bend
+# s-curve
 beginShape()
 vertex(400,200) # starting (upper) vertex
 bezierVertex(
