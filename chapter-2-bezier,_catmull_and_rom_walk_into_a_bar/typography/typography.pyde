@@ -17,8 +17,8 @@ line(
 )
 
 print( PFont.list() )
-timesroman = createFont('Times-Roman', 20)
-textFont(timesroman)
+seriffont = createFont('Times-Roman', 20)
+textFont(seriffont)
 text(pangram, 0,150)
 
 textLeading(10)
