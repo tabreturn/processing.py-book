@@ -6,7 +6,7 @@ strokeWeight(3)
 
 pangram = 'Quartz jock vends BMW glyph fix'
 
-text(pangram, 0, 50)
+text(pangram, 0,50)
 
 textSize(20)
 text(pangram, 0,100)
