@@ -22,7 +22,7 @@ textFont(seriffont)
 text(pangram, 0,150)
 
 textLeading(10)
-text(pangram, 0,200, 250,100)
+text(pangram, 0,200, 250, 100)
 
 textAlign(RIGHT)
-text(pangram, 0,250, 250,100)
+text(pangram, 0,250, 250, 100)
