@@ -2,6 +2,7 @@ size(600, 300)
 background('#004477')
 noStroke()
 
+# bands
 fill('#FF0000')
 ellipse(300, 300, 550, 550)
 fill('#FF9900')
@@ -15,5 +16,6 @@ ellipse(300, 300, 350, 350)
 fill('#6633FF')
 ellipse(300, 300, 300, 300)
 
+# center circle (mask)
 fill('#004477')
 ellipse(300, 300, 250, 250)

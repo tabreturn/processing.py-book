@@ -18,7 +18,8 @@ x = 38
 y = 121
 txt = '?'
 
-if x >= width/2 :#and y <= height/2:
+# conditional statements
+if x >= width/2 and y <= height/2:
     txt = 'R'
 elif x >= width/2 and y >= height/2:
     txt = 'O'
@@ -27,6 +28,7 @@ elif x <= width/2 and y <= height/2:
 elif x <= width/2 and y >= height/2:
     txt = 'P'
 
+# draw character
 fill('#FFFFFF')
 textSize(40)
 textAlign(CENTER, CENTER)
