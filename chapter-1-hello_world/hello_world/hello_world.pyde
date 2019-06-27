@@ -22,4 +22,4 @@ rect(50, 100, 150, 150)
 
 # fill-less square
 noFill()
-rect(250, 100, 150, 150)
+square(250, 100, 150)
