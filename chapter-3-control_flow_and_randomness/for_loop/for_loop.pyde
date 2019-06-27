@@ -10,13 +10,13 @@ i = 0
 
 for i in range(24):
     print(i)
-    ellipse(width/2, height/2, 30*i, 30*i)
+    circle(width/2, height/2, 30*i)
 '''
 
 # for loop version
 for i in range(24):
     print(i)
-    ellipse(width/2, height/2, 30*i, 30*i)
+    circle(width/2, height/2, 30*i)
 
 # to experiment with the range function, try out:
 # range(10, 13)

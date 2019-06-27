@@ -49,4 +49,4 @@ arc(width/2, height/2, r2*2, r2*2, PI*2/14*11, PI*2, PIE)
 
 # center
 fill('#004477')
-ellipse(width/2, height/2, r2, r2)
+circle(width/2, height/2, r2)
