@@ -26,7 +26,7 @@ stroke('#FF99FF') # pink
 cp1x = 200
 cp1y = 250
 cp2x = 320
-cp2y = 350
+cp2y = 420
 bezier(400,100, cp1x,cp1y, cp2x,cp2y, 100,400)
 
 # red bezier curve handles
