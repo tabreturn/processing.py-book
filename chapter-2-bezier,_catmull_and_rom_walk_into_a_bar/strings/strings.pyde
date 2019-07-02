@@ -35,4 +35,4 @@ print( greeting.count('o') )    # 2
 print( greeting.count('or') )   # 1
 print( greeting.find('World') ) # 7
 print( greeting.find('lemon') ) # -1
-print( all.find('o',6) )        # 8
+print( greeting.find('o',6) )   # 8
