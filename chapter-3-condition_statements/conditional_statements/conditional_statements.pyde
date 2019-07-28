@@ -1,34 +1,37 @@
 # booleans
 ball_is_red = True
-ball_is_blue = False
+ball_is_spikey = False
 print(ball_is_red)
-print(ball_is_blue)
+print(ball_is_spikey)
 print(ball_is_red + True) # 2
+print( bool(1) )          # True
+print( bool(0) )          # False
 
 # relational operators
 x = 2
 print( x > 1 )        # displays: True
 print( x < 1 )        # displays: False
-print( x == 2 )       # displays: True
+
 name = 'Jo'
 print( name == 'Jo' ) # displays: True
 print( name != 'Em' ) # displays: True
 
 # if statements
-mark = 0
+score = 0
+print( bool(not score) )
 
-if mark < 0 or mark > 100:
-    print('INVALID MARK')
-elif mark >= 80:
+if score < 0 or score > 100:
+    print('INVALID SCORE')
+elif score >= 80:
     print('A')
-elif mark >= 65:
+elif score >= 65:
     print('B')
-elif mark >= 50:
+elif score >= 50:
     print('C')
-elif mark >= 45 and mark < 50:
-    print('RESUBMIT')
+elif score >= 45 and score < 50:
+    print('RETAKE TEST')
 else:
     print('FAIL')
-    
-if not mark:
-    print('WARNING: MARK IS ZERO')
+
+if not score:
+    print('WARNING: SCORE IS ZERO')
