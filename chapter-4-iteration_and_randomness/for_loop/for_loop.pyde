@@ -20,4 +20,4 @@ for i in range(24):
 
 # to experiment with the range function, try out:
 # range(10, 13)
-# range(0, 13, 3)
+# range(3, 13, 3)
