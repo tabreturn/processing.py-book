@@ -27,4 +27,4 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 5: Motion and Transformation
 
-<a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/global_variables"><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-perceiving_motion/perceiving_motion"><img src="img/ch5-perceiving_motion.png" height="200" /></a>
+<a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/global_variables"><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/perceiving_motion"><img src="img/ch5-perceiving_motion.png" height="200" /></a>
