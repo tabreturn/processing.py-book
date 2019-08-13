@@ -7,7 +7,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 0: Intro
 
-<img src="img/ch0-digital_aquatics.png" style="height: 200px; padding: 0 10px 10px 0;" />
+<img src="img/ch0-digital_aquatics.png" height="200">
 
 ## Chapter 1: Hello World
 
