@@ -11,35 +11,20 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 1: Hello World
 
-<img src="img/ch1-disk_space_analyzer.png" height="200" />
-<img src="img/ch1-hello_world.png" height="200" />
-<img src="img/ch1-primitives_2d.png" height="200" />
-<img src="img/ch1-rainbow.png" height="200" />
-<img src="img/ch1-variables.png" height="200" />
+<a href="chapter-1-hello_world/disk_space_analyzer"><img src="img/ch1-disk_space_analyzer.png" height="200" /></a> <a href="chapter-1-hello_world/hello_world"><img src="img/ch1-hello_world.png" height="200" /></a> <a href="chapter-1-hello_world/primitives_2d"><img src="img/ch1-primitives_2d.png" height="200" /></a> <a href="chapter-1-hello_world/rainbow"><img src="img/ch1-rainbow.png" height="200" /></a> <a href="chapter-1-hello_world/variables"><img src="img/ch1-variables.png" height="200" /></a>
 
 ## Chapter 2: Bézier, Catmull and Rom walk into a bar ...
 
-<img src="img/ch2-curves.png" height="200" />
-<img src="img/ch2-python_logo.png" height="200" />
-<img src="img/ch2-strings.png" height="200" />
-<img src="img/ch2-typography.png" height="200" />
-<img src="img/ch2-vertices.png" height="200" />
+<a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/curves"><img src="img/ch2-curves.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/python_logo"><img src="img/ch2-python_logo.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/strings"><img src="img/ch2-strings.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/typography"><img src="img/ch2-typography.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/vertices"><img src="img/ch2-vertices.png" height="200" /></a>
 
 ## Chapter 3: Conditional Statements
 
-<img src="img/ch3-conditional_statements.png" height="200" />
-<img src="img/ch3-four_square.png" height="200" />
+<a href="chapter-3-condition_statements/conditional_statements"><img src="img/ch3-conditional_statements.png" height="200" /></a> <a href="chapter-3-condition_statements/four_square"><img src="img/ch3-four_square.png" height="200" /></a>
 
 ## Chapter 4: Iteration and Randomness
 
-<img src="img/ch4-concentric_circles.png" height="200" />
-<img src="img/ch4-for_loop.png" height="200" />
-<img src="img/ch4-for_loop_patterns.png" height="200" />
-<img src="img/ch4-random_functions.png" height="200" />
-<img src="img/ch4-truchet_tiles.png" height="200" />
+<a href="chapter-4-iteration_and_randomness/concentric_circles"><img src="img/ch4-concentric_circles.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/for_loop"><img src="img/ch4-for_loop.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/for_loop_patterns"><img src="img/ch4-for_loop_patterns.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/random_functions"><img src="img/ch4-random_functions.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/truchet_tiles"><img src="img/ch4-truchet_tiles.png" height="200" />
 
 ## Chapter 5: Motion and Transformation
 
-<img src="img/ch5-dvd_screensaver.png" height="200" />
-<img src="img/ch5-global_variables.png" height="200" />
-<img src="img/ch5-perceiving_motion.png" height="200" />
+<a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-perceiving_motion/dvd_screensaver"><img src="img/ch5-perceiving_motion.png" height="200" /></a>
