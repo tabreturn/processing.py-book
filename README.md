@@ -11,35 +11,35 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 1: Hello World
 
-![](img/ch1-disk_space_analyzer.png)
-![](img/ch1-hello_world.png)
-![](img/ch1-primitives_2d.png)
-![](img/ch1-rainbow.png)
-![](img/ch1-variables.png)
+<img src="img/ch1-disk_space_analyzer.png" height="200">
+<img src="img/ch1-hello_world.png" height="200">
+<img src="img/ch1-primitives_2d.png" height="200">
+<img src="img/ch1-rainbow.png" height="200">
+<img src="img/ch1-variables.png" height="200">
 
 ## Chapter 2: Bézier, Catmull and Rom walk into a bar ...
 
-![](img/ch2-curves.png)
-![](img/ch2-python_logo.png)
-![](img/ch2-strings.png)
-![](img/ch2-typography.png)
-![](img/ch2-vertices.png)
+<img src="img/ch2-curves.png" height="200">
+<img src="img/ch2-python_logo.png" height="200">
+<img src="img/ch2-strings.png" height="200">
+<img src="img/ch2-typography.png" height="200">
+<img src="img/ch2-vertices.png" height="200">
 
 ## Chapter 3: Conditional Statements
 
-![](img/ch3-conditional_statements.png)
-![](img/ch3-four_square.png)
+<img src="img/ch3-conditional_statements.png" height="200">
+<img src="img/ch3-four_square.png" height="200">
 
 ## Chapter 4: Iteration and Randomness
 
-![](img/ch4-concentric_circles.png)
-![](img/ch4-for_loop.png)
-![](img/ch4-for_loop_patterns.png)
-![](img/ch4-random_functions.png)
-![](img/ch4-truchet_tiles.png)
+<img src="img/ch4-concentric_circles.png" height="200">
+<img src="img/ch4-for_loop.png" height="200">
+<img src="img/ch4-for_loop_patterns.png" height="200">
+<img src="img/ch4-random_functions.png" height="200">
+<img src="img/ch4-truchet_tiles.png" height="200">
 
 ## Chapter 5: Motion and Transformation
 
-![](img/ch5-dvd_screensaver.png)
-![](img/ch5-global_variables.png)
-![](img/ch5-perceiving_motion.png)
+<img src="img/ch5-dvd_screensaver.png" height="200">
+<img src="img/ch5-global_variables.png" height="200">
+<img src="img/ch5-perceiving_motion.png" height="200">
