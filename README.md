@@ -5,10 +5,6 @@ The official source code for the examples, as well as solutions to challenges, f
 
 Navigate through the directories listed above to find the code for the images displayed below.
 
-<style>
-img {height: 200px; padding: 0 10px 10px 0;}
-</style>
-
 ## Chapter 0: Intro
 
 <img src="img/ch0-digital_aquatics.png" style="height: 200px; padding: 0 10px 10px 0;" />
