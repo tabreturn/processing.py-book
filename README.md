@@ -11,7 +11,7 @@ img {height: 200px; padding: 0 10px 10px 0;}
 
 ## Chapter 0: Intro
 
-![](img/ch0-digital_aquatics.png)
+<img src="img/ch0-digital_aquatics.png" style="height: 200px; padding: 0 10px 10px 0;" />
 
 ## Chapter 1: Hello World
 
