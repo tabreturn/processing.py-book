@@ -8,7 +8,7 @@ translate(150, 100)
 #rotate(QUARTER_PI)
 scale(0.5)
 
-# grid overlay and red square
+# red square
 pushMatrix()
 shearY(QUARTER_PI)
 image(grido, 0, 0)
@@ -17,6 +17,9 @@ square(0, 0, 100)
 popMatrix()
 
 # yellow square
+pushMatrix()
 translate(100, 0)
+image(grido, 0, 0)
 fill('#FFFF00')
 square(0, 0, 100)
+popMatrix()
