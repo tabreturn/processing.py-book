@@ -1,16 +1,16 @@
 # booleans
 ball_is_red = True
 ball_is_spikey = False
-print(ball_is_red)
-print(ball_is_spikey)
-print(ball_is_red + True) # 2
-print( bool(1) )          # True
-print( bool(0) )          # False
+print(ball_is_red)        # displays: True
+print(ball_is_spikey)     # displays: False
+print(ball_is_red + True) # displays: 2
+print( bool(1) )          # displays: True
+print( bool(0) )          # displays: False
 
 # relational operators
 x = 2
-print( x > 1 )        # displays: True
-print( x < 1 )        # displays: False
+print( x > 1 ) # displays: True
+print( x < 1 ) # displays: False
 
 name = 'Jo'
 print( name == 'Jo' ) # displays: True
