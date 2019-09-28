@@ -28,10 +28,11 @@ elif score >= 65:
     print('B')
 elif score >= 50:
     print('C')
-elif score >= 45 and score < 50:
-    print('RETAKE TEST')
 else:
     print('FAIL')
+
+if score >= 45 and score < 50:
+    print('OFFER RETAKE')
 
 if not score:
     print('WARNING: SCORE IS ZERO')
