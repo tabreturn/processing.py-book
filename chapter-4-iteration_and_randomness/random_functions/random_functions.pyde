@@ -12,4 +12,4 @@ print( random(5,10) )
 print( int(random(5,10)) )
 
 for i in range(10):
-    point( random(width), random(height) )
+    point(random(width), random(height))
