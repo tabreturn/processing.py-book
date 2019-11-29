@@ -27,3 +27,7 @@ Navigate through the directories listed above to find the code for the images di
 ## Chapter 5: Motion and Transformation
 
 <a href="chapter-5-motion_and_transformation/analog_clock"><img src="img/ch5-analog_clock.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/global_variables"><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/perceiving_motion"><img src="img/ch5-perceiving_motion.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/transformation_functions"><img src="img/ch5-tranformation_functions.png" height="200" /></a>
+
+## Chapter 6: Lists and Data
+
+<a href="chapter-6-lists_and_data/breakout_level"><img src="img/ch6-breakout_level.png" height="200" /></a> <a href="chapter-6-lists_and_data/csv"><img src="img/ch6-csv.png" height="200" /></a> <a href="chapter-6-lists_and_data/game_sales_chart"><img src="img/ch6-game_sales_chart.png" height="200" /></a> <a href="chapter-6-lists_and_data/lists_of_lists"><img src="img/ch6-lists_of_lists.png" height="200" /></a> <a href="chapter-6-lists_and_data/rainbow_list"><img src="img/ch6-rainbow_list.png" height="200" /></a> 
