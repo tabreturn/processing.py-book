@@ -56,9 +56,9 @@ for band in bands2:
     fill('#FF0000')
     rect(0, 0, r, h)
     fill('#00FF00')
-    rect(0+r, 0, g, h)
+    rect(r, 0, g, h)
     fill('#0099FF')
-    rect(0+r+g, 0, b, h)
+    rect(r+g, 0, b, h)
     fill('#FFFFFF')
     
     textAlign(RIGHT)
