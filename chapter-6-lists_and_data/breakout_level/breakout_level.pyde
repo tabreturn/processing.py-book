@@ -25,8 +25,8 @@ bricks = [
   [ [0,g,1]                            ]  # row 7
 ]
 
-print(bricks[0])       # displays the first row of bricks
-print(bricks[0][0])    # displays the first brick
+print(bricks[0])       # displays row 0 items
+print(bricks[0][0])    # displays the very first brick
 print(bricks[0][0][1]) # displays #FF0000
 
 bw = width/4
