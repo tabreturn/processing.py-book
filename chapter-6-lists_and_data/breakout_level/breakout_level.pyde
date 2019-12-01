@@ -33,9 +33,9 @@ bw = width/4
 bh = height/15
 translate(0, bh)
 
-for row, bricks in enumerate(bricks):
+for row in bricks:
 
-    for brick in bricks:
+    for brick in row:
         x = brick[0] * bw
         fill(brick[1])
         rect(x, 0, bw, bh)
