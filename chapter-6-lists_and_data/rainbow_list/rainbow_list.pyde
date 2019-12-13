@@ -49,17 +49,11 @@ bands = [
   '#6633FF'  # violet
 ]
 
+# red band
 translate(0, 100)
 #fill(bands[0])
 #rect(0, 0, width, 50)
 
-'''
-for i in range(len(bands)):
-    fill(bands[i])
-    rect(0, 50*i, width, 50)
-'''
-
-#for band in bands:
 for i, band in enumerate(bands):
     fill(band)
     rect(0, 0, width, 50)
@@ -67,7 +61,3 @@ for i, band in enumerate(bands):
     textSize(25)
     text(i, 20,35)
     translate(0, 50)
-
-    
-    
-    
