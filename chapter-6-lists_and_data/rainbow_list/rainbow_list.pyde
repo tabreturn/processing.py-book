@@ -24,11 +24,11 @@ print(yellowindex)  # 2
 rainbow.insert(3, 'green')
 print(rainbow)      # red, orange, yellow, green, blue, indigo, violet
 
-i = rainbow.pop(5)  # removes indigo and assigns it to i
+i = rainbow.pop(5)
 print(i)            # indigo
 print(rainbow)      # red, orange, yellow, green, blue, violet
 
-i = rainbow.pop()   # removes violet
+i = rainbow.pop()
 print(rainbow)      # red, orange, yellow, green, blue
 
 rainbow.extend(colors)
