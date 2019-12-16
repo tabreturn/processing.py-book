@@ -1,7 +1,7 @@
 size(800,800)
 background('#004477')
-noStroke()
 tsv = loadStrings('list_of_best-selling_video_games.tsv')
+noStroke()
 
 entry1 = tsv[1].split('\t') # Minecraft entry
 sales1 = entry1[2]          # 180000000
