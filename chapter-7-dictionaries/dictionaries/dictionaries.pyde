@@ -65,4 +65,4 @@ for kv in courses.items():
 
 #for course, prof in sorted(courses.items()):
 for course, prof in reversed(sorted(courses.items())):
-    print('{} teaches the {} course.'.format(prof, course))
+    print('{} coordinates the {} course.'.format(prof, course))
