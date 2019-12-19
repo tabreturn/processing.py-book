@@ -1,32 +1,32 @@
 [
   { 
-    "name": "espresso", 
+    "name": "Espresso", 
     "ingredients": [
       ["espresso",    30, "#221100"]
     ]
   },
   { 
-    "name": "espresso doppio",
+    "name": "Espresso Doppio",
     "ingredients": [
       ["espresso",    60, "#221100"]
     ]
   },
     { 
-    "name": "cafe macchiato", 
+    "name": "Cafe Macchiato", 
     "ingredients": [
       ["espresso",    60, "#221100"], 
       ["foamedmilk",  10, "#DDDDCC"]
     ]
   },
   { 
-    "name": "cafe cortado",
+    "name": "Cafe Cortado",
     "ingredients": [
       ["espresso",    60, "#221100"], 
       ["foamedmilk",  30, "#DDDDCC"]
     ]
   },
   { 
-    "name": "capucchino", 
+    "name": "Capucchino", 
     "ingredients": [
       ["espresso",    40, "#221100"], 
       ["steamedmilk", 40, "#FFFFFF"],
@@ -34,21 +34,21 @@
     ]
   },
   { 
-    "name": "americano", 
+    "name": "Americano", 
     "ingredients": [
       ["espresso",    50, "#221100"], 
       ["hotwater",    60, "#0099FF"]
     ]
   },
   { 
-    "name": "black eye", 
+    "name": "Black Eye", 
     "ingredients": [
       ["espresso",    50, "#221100"], 
       ["brewedcoffee",50, "#443322"]
     ]
   },
   { 
-    "name": "mocha", 
+    "name": "Mocha", 
     "ingredients": [
       ["espresso",    50, "#221100"], 
       ["chocolate",   50, "#AA6644"], 
@@ -56,7 +56,7 @@
     ]
   },
   { 
-    "name": "irish", 
+    "name": "Irish Coffee", 
     "ingredients": [
       ["espresso",    60, "#221100"], 
       ["whiskey",     40, "#FFCC77"], 

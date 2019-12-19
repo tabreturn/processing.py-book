@@ -1,10 +1,11 @@
-size(800, 800)
-background('#004477')
-
 import json
 jsondata = open('coffees.json')
-coffees = json.load(jsondata) # no int() required for ml numbers
+coffees = json.load(jsondata)
 
+print(coffees[8]['ingredients'][1][1]) # 40
+
+size(800, 800)
+background('#004477')
 col = 1
 spacing = 230
 mug = 120
@@ -12,7 +13,7 @@ translate(100, 100)
 
 for coffee in coffees:
     '''
-    # ingredients
+    # ingredients goes here
     pushMatrix()
     
     for ingredient in coffee['ingredients']:
@@ -23,7 +24,7 @@ for coffee in coffees:
         translate(0, -ml)
         
     popMatrix()
-    ''' 
+    '''
     # mug
     strokeWeight(5)
     stroke('#FFFFFF')
@@ -39,7 +40,7 @@ for coffee in coffees:
     text(label, mug/2-textWidth(label)/2, mug+40)
     
     if col%3 == 0:
-        translate(-spacing*2, spacing)
+        translate(spacing*-2, spacing)
         col = 1
     else:
         translate(spacing, 0)
