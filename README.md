@@ -4,9 +4,9 @@
 
 Navigate through the directories listed above to find the code for the images displayed below.
 
-## Chapter 0: Intro
+## Chapter 0: Introduction
 
-<a href="chapter-0-intro/digital_aquatics"><img src="img/ch0-digital_aquatics.png" height="200" /></a>
+<a href="chapter-0-introduction/digital_aquatics"><img src="img/ch0-digital_aquatics.png" height="200" /></a>
 
 ## Chapter 1: Hello, World!
 
