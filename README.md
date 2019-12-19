@@ -10,7 +10,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 1: Hello, World!
 
-<a href="chapter-1-hello,_world!/disk_space_analyzer"><img src="img/ch1-disk_space_analyzer.png" height="200" /></a> <a href="chapter-1-hello,_world!/hello,_world!"><img src="img/ch1-hello,_world!.png" height="200" /></a> <a href="chapter-1-hello,_world!/primitives_2d"><img src="img/ch1-primitives_2d.png" height="200" /></a> <a href="chapter-1-hello,_world!/rainbow"><img src="img/ch1-rainbow.png" height="200" /></a> <a href="chapter-1-hello,_world!/variables"><img src="img/ch1-variables.png" height="200" /></a>
+<a href="chapter-1-hello,_world!/disk_space_analyzer"><img src="img/ch1-disk_space_analyzer.png" height="200" /></a> <a href="chapter-1-hello,_world!/hello_world"><img src="img/ch1-hello_world.png" height="200" /></a> <a href="chapter-1-hello,_world!/primitives_2d"><img src="img/ch1-primitives_2d.png" height="200" /></a> <a href="chapter-1-hello,_world!/rainbow"><img src="img/ch1-rainbow.png" height="200" /></a> <a href="chapter-1-hello,_world!/variables"><img src="img/ch1-variables.png" height="200" /></a>
 
 ## Chapter 2: Drawing More Complicated Shapes
 
