@@ -1,0 +1,47 @@
+size(800, 800)
+background('#004477')
+
+import json
+jsondata = open('coffees.json')
+coffees = json.load(jsondata) # no int() required for ml numbers
+
+col = 1
+spacing = 230
+mug = 120
+translate(100, 100)
+
+for coffee in coffees:
+    '''
+    # ingredients
+    pushMatrix()
+    
+    for ingredient in coffee['ingredients']:
+        ml = ingredient[1]
+        fill(ingredient[2])
+        noStroke()
+        rect(0, mug-ml, mug, ml)
+        translate(0, -ml)
+        
+    popMatrix()
+    ''' 
+    # mug
+    strokeWeight(5)
+    stroke('#FFFFFF')
+    noFill()
+    square(0, 0, mug)
+    arc(mug, mug/2, 40, 40, -HALF_PI, HALF_PI)
+    arc(mug, mug/2, 65, 65, -HALF_PI, HALF_PI)
+
+    # label
+    fill('#FFFFFF')
+    textSize(16)
+    label = coffee['name']
+    text(label, mug/2-textWidth(label)/2, mug+40)
+    
+    if col%3 == 0:
+        translate(-spacing*2, spacing)
+        col = 1
+    else:
+        translate(spacing, 0)
+        col += 1
+    

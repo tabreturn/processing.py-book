@@ -8,13 +8,13 @@ Navigate through the directories listed above to find the code for the images di
 
 <a href="chapter-0-intro/digital_aquatics"><img src="img/ch0-digital_aquatics.png" height="200" /></a>
 
-## Chapter 1: Hello World
+## Chapter 1: Hello, World!
 
-<a href="chapter-1-hello_world/disk_space_analyzer"><img src="img/ch1-disk_space_analyzer.png" height="200" /></a> <a href="chapter-1-hello_world/hello_world"><img src="img/ch1-hello_world.png" height="200" /></a> <a href="chapter-1-hello_world/primitives_2d"><img src="img/ch1-primitives_2d.png" height="200" /></a> <a href="chapter-1-hello_world/rainbow"><img src="img/ch1-rainbow.png" height="200" /></a> <a href="chapter-1-hello_world/variables"><img src="img/ch1-variables.png" height="200" /></a>
+<a href="chapter-1-hello,_world!/disk_space_analyzer"><img src="img/ch1-disk_space_analyzer.png" height="200" /></a> <a href="chapter-1-hello,_world!/hello,_world!"><img src="img/ch1-hello,_world!.png" height="200" /></a> <a href="chapter-1-hello,_world!/primitives_2d"><img src="img/ch1-primitives_2d.png" height="200" /></a> <a href="chapter-1-hello,_world!/rainbow"><img src="img/ch1-rainbow.png" height="200" /></a> <a href="chapter-1-hello,_world!/variables"><img src="img/ch1-variables.png" height="200" /></a>
 
-## Chapter 2: Bézier, Catmull and Rom walk into a bar ...
+## Chapter 2: Drawing More Complicated Shapes
 
-<a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/curves"><img src="img/ch2-curves.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/python_logo"><img src="img/ch2-python_logo.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/strings"><img src="img/ch2-strings.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/typography"><img src="img/ch2-typography.png" height="200" /></a> <a href="chapter-2-bezier,_catmull_and_rom_walk_into_a_bar/vertices"><img src="img/ch2-vertices.png" height="200" /></a>
+<a href="chapter-2-drawing_more_complicated_shapes/curves"><img src="img/ch2-curves.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/python_logo"><img src="img/ch2-python_logo.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/strings"><img src="img/ch2-strings.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/typography"><img src="img/ch2-typography.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/vertices"><img src="img/ch2-vertices.png" height="200" /></a>
 
 ## Chapter 3: Conditional Statements
 
@@ -28,6 +28,6 @@ Navigate through the directories listed above to find the code for the images di
 
 <a href="chapter-5-motion_and_transformation/analog_clock"><img src="img/ch5-analog_clock.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/global_variables"><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/perceiving_motion"><img src="img/ch5-perceiving_motion.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/transformation_functions"><img src="img/ch5-tranformation_functions.png" height="200" /></a>
 
-## Chapter 6: Lists and Data
+## Chapter 6: Working with Lists and Reading Data
 
-<a href="chapter-6-lists_and_data/breakout_level"><img src="img/ch6-breakout_level.png" height="200" /></a> <a href="chapter-6-lists_and_data/csv"><img src="img/ch6-csv.png" height="200" /></a> <a href="chapter-6-lists_and_data/game_sales_chart"><img src="img/ch6-game_sales_chart.png" height="200" /></a> <a href="chapter-6-lists_and_data/lists_of_lists"><img src="img/ch6-lists_of_lists.png" height="200" /></a> <a href="chapter-6-lists_and_data/rainbow_list"><img src="img/ch6-rainbow_list.png" height="200" /></a> 
+<a href="chapter-6-working_with_lists_and_reading_data/breakout_level"><img src="img/ch6-breakout_level.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/csv"><img src="img/ch6-csv.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/game_sales_chart"><img src="img/ch6-game_sales_chart.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/lists_of_lists"><img src="img/ch6-lists_of_lists.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/rainbow_list"><img src="img/ch6-rainbow_list.png" height="200" /></a>
