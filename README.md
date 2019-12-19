@@ -18,7 +18,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 3: Conditional Statements
 
-<a href="chapter-3-condition_statements/conditional_statements"><img src="img/ch3-conditional_statements.png" height="200" /></a> <a href="chapter-3-condition_statements/four_square"><img src="img/ch3-four_square.png" height="200" /></a>
+<a href="chapter-3-conditional_statements/conditional_statements"><img src="img/ch3-conditional_statements.png" height="200" /></a> <a href="chapter-3-conditional_statements/four_square"><img src="img/ch3-four_square.png" height="200" /></a>
 
 ## Chapter 4: Iteration and Randomness
 
