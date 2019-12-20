@@ -6,13 +6,12 @@ print(coffees[8]['ingredients'][1][1]) # 40
 
 size(800, 800)
 background('#004477')
-col = 1
-spacing = 230
 mug = 120
+spacing = 230
+col = 1
 translate(100, 100)
 
 for coffee in coffees:
-    '''
     # ingredients goes here
     pushMatrix()
     
@@ -24,7 +23,7 @@ for coffee in coffees:
         translate(0, -ml)
         
     popMatrix()
-    '''
+    
     # mug
     strokeWeight(5)
     stroke('#FFFFFF')
