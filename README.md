@@ -26,7 +26,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 5: Motion and Transformation
 
-<a href="chapter-5-motion_and_transformation/perceiving_motion"><img src="img/ch5-perceiving_motion.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/global_variables"><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/transformation_functions"><img src="img/ch5-tranformation_functions.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/analog_clock"><img src="img/ch5-analog_clock.png" height="200" /></a> 
+<a href="chapter-5-motion_and_transformation/perceiving_motion"><img src="img/ch5-perceiving_motion.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/global_variables"><img src="img/ch5-global_variables.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/dvd_screensaver"><img src="img/ch5-dvd_screensaver.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/transformation_functions"><img src="img/ch5-tranformation_functions.png" height="200" /></a> <a href="chapter-5-motion_and_transformation/analog_clock"><img src="img/ch5-analog_clock.png" height="200" /></a>
 
 ## Chapter 6: Working with Lists and Reading Data
 
@@ -34,4 +34,4 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 7: Dictionaries and JSON
 
-<a href="chapter-7-dictionaries_and_json/coffee_chart"><img src="img/ch7-coffee_chart.png" height="200" /></a> <a href="chapter-7-dictionaries_and_json/dictionaries"><img src="img/ch7-dictionaries.png" height="200" /></a>
+<a href="chapter-7-dictionaries_and_json/dictionaries"><img src="img/ch7-dictionaries.png" height="200" /></a> <a href="chapter-7-dictionaries_and_json/coffee_chart"><img src="img/ch7-coffee_chart.png" height="200" /></a>
