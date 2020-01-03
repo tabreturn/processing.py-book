@@ -30,7 +30,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 6: Working with Lists and Reading Data
 
-<a href="chapter-6-working_with_lists_and_reading_data/breakout_level"><img src="img/ch6-breakout_level.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/csv"><img src="img/ch6-csv.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/game_sales_chart"><img src="img/ch6-game_sales_chart.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/lists_of_lists"><img src="img/ch6-lists_of_lists.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/rainbow_list"><img src="img/ch6-rainbow_list.png" height="200" /></a>
+<a href="chapter-6-working_with_lists_and_reading_data/rainbow_list"><img src="img/ch6-rainbow_list.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/lists_of_lists"><img src="img/ch6-lists_of_lists.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/breakout_level"><img src="img/ch6-breakout_level.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/csv"><img src="img/ch6-csv.png" height="200" /></a> <a href="chapter-6-working_with_lists_and_reading_data/game_sales_chart"><img src="img/ch6-game_sales_chart.png" height="200" /></a>
 
 ## Chapter 7: Dictionaries and JSON
 
