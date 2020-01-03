@@ -22,7 +22,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 4: Iteration and Randomness
 
-<a href="chapter-4-iteration_and_randomness/concentric_circles"><img src="img/ch4-concentric_circles.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/for_loop"><img src="img/ch4-for_loop.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/for_loop_patterns"><img src="img/ch4-for_loop_patterns.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/random_functions"><img src="img/ch4-random_functions.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/truchet_tiles"><img src="img/ch4-truchet_tiles.png" height="200" />
+<a href="chapter-4-iteration_and_randomness/concentric_circles"><img src="img/ch4-concentric_circles.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/for_loop"><img src="img/ch4-for_loop.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/for_loop_patterns"><img src="img/ch4-for_loop_patterns.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/random_functions"><img src="img/ch4-random_functions.png" height="200" /></a> <a href="chapter-4-iteration_and_randomness/truchet_tiles"><img src="img/ch4-truchet_tiles.png" height="200" /></a> 
 
 ## Chapter 5: Motion and Transformation
 
