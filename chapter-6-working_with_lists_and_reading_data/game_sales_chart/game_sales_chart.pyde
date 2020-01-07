@@ -1,3 +1,7 @@
+# This sketch makes use of:
+# https://en.wikipedia.org/wiki/List_of_best-selling_PC_games
+# TSV file generated 2019-11-29, Wikipedia [CC BY-SA 3.0]
+
 size(800,800)
 background('#004477')
 tsv = loadStrings('list_of_best-selling_video_games.tsv')
