@@ -4,7 +4,7 @@ background('#000000')
 
 # ball and paddle
 fill('#FFFFFF')
-ellipse(350,440, 18,18)
+circle(350, 440, 18)
 rect(300,520, 190,40)
 
 r = '#FF0000' # red
@@ -46,5 +46,5 @@ for row in bricks:
             line(x+5, 5, x+bw-7, 5)
             line(x+5, 5, x+5, bh-7)
             noStroke()
-            
+
     translate(0, bh)
