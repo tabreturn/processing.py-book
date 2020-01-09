@@ -28,9 +28,6 @@ art = loadImage('561px-Van_Eyck_-_Arnolfini_Portrait.jpg')
 image(art, 0, 0, width, height)
 
 def speechBubble(x, y, txt='Hello', type='speech'):
-    #x = 190
-    #y = 150
-    #txt = 'Check out my hat!'
     noStroke()
     pushMatrix()
     translate(x, y)
@@ -61,8 +58,10 @@ def speechBubble(x, y, txt='Hello', type='speech'):
     
     popMatrix()
 
-speechBubble(190, 150, 'Check out my hat!')
-speechBubble(315, 675, 'Woof')         # positional arguments
-speechBubble(txt='Woof', x=315, y=675) # keyword arguments
+def shout(txt):
+    return txt.upper() + '!!!'
+
+speechBubble(190, 150, shout('Check out my hat'))
+speechBubble(315, 650, 'Woof')         # positional arguments
+speechBubble(txt='Woof', x=315, y=650) # keyword arguments
 speechBubble(445, 125, 'Meh', 'thought')
-speechBubble(width/2, height/2, type='thought')
