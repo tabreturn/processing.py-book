@@ -1,16 +1,18 @@
 # This sketch makes use of:
-# The Arnolfini Portrait, Jan van Eyck, oil on oak, 1434. National Gallery, London 
+# The Arnolfini Portrait, Jan van Eyck, 1434. National Gallery, London
 # Jan van Eyck [Public domain], via Wikimedia Commons
 
 # a function without arguments
 
-wait = 0#5000
+wait = 0
+
 
 def printAnswer():
     print(' ------------------- ')
     print('| The answer is 42! |')
     print('| ------------------ ')
     print('|/')
+
 
 print('What do you get if you multiply six by seven?')
 delay(wait)
@@ -27,25 +29,26 @@ size(561, 768)
 art = loadImage('561px-Van_Eyck_-_Arnolfini_Portrait.jpg')
 image(art, 0, 0, width, height)
 
+
 def speechBubble(x, y, txt='Hello', type='speech'):
     noStroke()
     pushMatrix()
     translate(x, y)
-    
+
     # tail
     if type == 'speech':
         fill('#FFFFFF')
         beginShape()
-        vertex(0, 0) # tip
+        vertex(0, 0)  # tip
         vertex(15, -40)
         vertex(35, -40)
         endShape(CLOSE)
-    
-    elif type == 'thought': 
+
+    elif type == 'thought':
         fill('#FFFFFF')
         circle(0, 0, 8)
         circle(10, -20, 20)
-        
+
     # bubble
     textSize(15)
     by = -85
@@ -55,13 +58,15 @@ def speechBubble(x, y, txt='Hello', type='speech'):
     fill('#000000')
     textAlign(LEFT, CENTER)
     text(txt, pad, by+pad)
-    
+
     popMatrix()
+
 
 def shout(txt):
     return txt.upper() + '!!!'
 
+
 speechBubble(190, 150, shout('Check out my hat'))
-speechBubble(315, 650, 'Woof')         # positional arguments
-speechBubble(txt='Woof', x=315, y=650) # keyword arguments
+speechBubble(315, 650, 'Woof')          # positional arguments
+speechBubble(txt='Woof', x=315, y=650)  # keyword arguments
 speechBubble(445, 125, 'Meh', 'thought')
