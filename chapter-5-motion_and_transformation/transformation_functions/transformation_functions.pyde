@@ -1,4 +1,4 @@
-size(800,800)
+size(800, 800)
 noStroke()
 grid = loadImage('grid.png')
 image(grid, 0, 0)
