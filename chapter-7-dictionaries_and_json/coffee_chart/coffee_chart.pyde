@@ -2,7 +2,7 @@ import json
 jsondata = open('coffees.json')
 coffees = json.load(jsondata)
 
-print(coffees[8]['ingredients'][1][1]) # 40
+print(coffees[8]['ingredients'][1][1])  # 40
 
 size(800, 800)
 background('#004477')
@@ -14,16 +14,16 @@ translate(100, 100)
 for coffee in coffees:
     # ingredients goes here
     pushMatrix()
-    
+
     for ingredient in coffee['ingredients']:
         ml = ingredient[1]
         fill(ingredient[2])
         noStroke()
         rect(0, mug-ml, mug, ml)
         translate(0, -ml)
-        
+
     popMatrix()
-    
+
     # mug
     strokeWeight(5)
     stroke('#FFFFFF')
@@ -37,11 +37,10 @@ for coffee in coffees:
     textSize(16)
     label = coffee['name']
     text(label, mug/2-textWidth(label)/2, mug+40)
-    
-    if col%3 == 0:
+
+    if col % 3 == 0:
         translate(spacing*-2, spacing)
         col = 1
     else:
         translate(spacing, 0)
         col += 1
-    

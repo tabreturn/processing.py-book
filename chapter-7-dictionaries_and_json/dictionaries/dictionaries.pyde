@@ -1,5 +1,5 @@
 student = ['Sam', 24]
-student = {'name':'Sam', 'age':24}
+student = {'name': 'Sam', 'age': 24}
 
 # accessing dictionaries
 
@@ -27,13 +27,13 @@ students = {
   'names': ['Sam', 'Lee'],
   'ids': [19950501, 19991114]
 }
-print( students['names'][1] ) # Lee
+print(students['names'][1])  # Lee
 
 students = [
-  {'name':'Sam', 'id':19950501},
-  {'name':'Lee', 'id':19991114}
+  {'name': 'Sam', 'id': 19950501},
+  {'name': 'Lee', 'id': 19991114}
 ]
-print( students[1]['name'] )  # Lee
+print(students[1]['name'])   # Lee
 
 # combining loops and dictionaries
 
@@ -49,7 +49,7 @@ courses = {
 for course in sorted(courses):
     print(course)
 
-print( sorted(courses.keys()) ) # ['code art', 'game development', 'web design']
+print(sorted(courses.keys()))  # ['code art', 'game development', 'web design']
 
 # iterating values
 
@@ -58,7 +58,7 @@ for prof in courses.values():
 
 # iterating items
 
-print( courses.items() )
+print(courses.items())
 
 for kv in courses.items():
     print(kv)
