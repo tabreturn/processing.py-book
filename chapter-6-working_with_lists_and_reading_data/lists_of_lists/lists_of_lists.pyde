@@ -25,7 +25,7 @@ for band in bands1:
     fill(band)
     rect(0, 0, 40, h)
     translate(0, h)
-    
+
 # 2-dimensional
 
 bands2 = [
@@ -37,7 +37,7 @@ bands2 = [
   [40, 20, 100, 'violet']
 ]
 
-print( bands2[1][1] ) # 60
+print(bands2[1][1])  # 60
 
 colorMode(RGB, 100)
 resetMatrix()
@@ -47,12 +47,14 @@ for band in bands2:
     r = band[0]
     g = band[1]
     b = band[2]
-    
-    #sum = r + g + b
-    #avg = sum / 3
-    #fill(avg, avg, avg)
-    #rect(0, 0, sum, h)
-    
+
+    '''
+    sum = r + g + b
+    avg = sum / 3
+    fill(avg, avg, avg)
+    rect(0, 0, sum, h)
+    '''
+
     fill('#FF0000')
     rect(0, 0, r, h)
     fill('#00FF00')
@@ -60,7 +62,7 @@ for band in bands2:
     fill('#0099FF')
     rect(r+g, 0, b, h)
     fill('#FFFFFF')
-    
+
     textAlign(RIGHT)
-    text(band[3], -20,30)
+    text(band[3], -20, 30)
     translate(0, h)

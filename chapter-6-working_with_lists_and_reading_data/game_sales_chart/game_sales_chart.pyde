@@ -2,14 +2,14 @@
 # https://en.wikipedia.org/wiki/List_of_best-selling_PC_games
 # TSV file generated 2019-11-29, Wikipedia [CC BY-SA 3.0]
 
-size(800,800)
+size(800, 800)
 background('#004477')
 tsv = loadStrings('list_of_best-selling_video_games.tsv')
 noStroke()
 
-entry1 = tsv[1].split('\t') # Minecraft entry
-sales1 = entry1[2]          # 180000000
-print( int(sales1) + 1 )    # 180000001
+entry1 = tsv[1].split('\t')  # Minecraft entry
+sales1 = entry1[2]           # 180000000
+print(int(sales1) + 1)       # 180000001
 
 rainbow = [
   '#FF0000',
@@ -30,8 +30,8 @@ for entry in tsv[1:]:
     bw = u * int(fields[2])
     bx = 0
     by = bh * (int(fields[0])-1)
-    fill( rainbow[(int(fields[0])-1) % len(rainbow)] )
+    fill(rainbow[(int(fields[0])-1) % len(rainbow)])
     rect(bx, 0, bw, bh)
     fill(0)
-    text( fields[1], bx+5, bh-3 )
+    text(fields[1], bx+5, bh-3)
     translate(0, bh)
