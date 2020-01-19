@@ -1,8 +1,6 @@
 # Processing Python Mode: Creative Coding Made Easy
 
-*The official source code for the examples, as well as solutions to challenges, for the book **Processing Python Mode: Creative Coding Made Easy***
-
-Navigate through the directories listed above to find the code for the images displayed below.
+*The official source code for the examples, as well as solutions to challenges, for the book *Processing Python Mode: Creative Coding Made Easy**
 
 ## Chapter 0: Introduction
 
@@ -39,3 +37,7 @@ Navigate through the directories listed above to find the code for the images di
 ## Chapter 8: Dictionaries and JSON
 
 <a href="chapter-8-dictionaries_and_json/dictionaries"><img src="img/ch7-dictionaries.png" height="200" /></a> <a href="chapter-8-dictionaries_and_json/coffee_chart"><img src="img/ch7-coffee_chart.png" height="200" /></a>
+
+# Issues
+
+If you find any issues, you can report them here: https://github.com/tabreturn/processing.py-book/issues
