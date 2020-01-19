@@ -1,4 +1,4 @@
-size(600,600)
+size(600, 600)
 background('#004477')
 stroke('#FFFFFF')
 strokeWeight(3)
@@ -12,8 +12,8 @@ arc(width/2,height/2, 400,400, 0,PI*2) # full-circle
 arc(width/2,height/2, 350,350, 3.4,(PI*2)-(PI/2), PIE)
 '''
 
-ringwidth = 70;
-r2 = ringwidth*2;
+ringwidth = 70
+r2 = ringwidth * 2
 
 x = width/2
 y = height/2

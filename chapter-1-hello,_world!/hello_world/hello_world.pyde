@@ -1,7 +1,7 @@
 # dimensions of the display window measured in pixels
 size(500, 500)
 background('#004477')
-print('Hello, World!') # writes hello world to the console area
+print('Hello, World!')  # writes hello world to the console area
 '''
 This is a multi-line comment.
 Any code between the opening and closing triple-quotes is ignored.
