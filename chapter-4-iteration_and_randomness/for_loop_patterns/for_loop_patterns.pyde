@@ -10,14 +10,14 @@ for i in range(12):
     line(55, 120+i*13, 210, 50+i*13)
 
 # middle pattern
-distance = 10;
-for i in range(1,9):
+distance = 10
+for i in range(1, 9):
     line(325, 60+distance, 480, 60+distance)
     distance *= 1.5
 
 # right pattern
 for i in range(13):
-    if i%2 > 0:
-        line( 667, 70+(13*i), 742, 70+(13*i) )
+    if i % 2 > 0:
+        line(667, 70+(13*i), 742, 70+(13*i))
     else:
-        line( 590, 70+(13*i), 665, 70+(13*i) )
+        line(590, 70+(13*i), 665, 70+(13*i))
