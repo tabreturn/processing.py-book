@@ -1,6 +1,6 @@
-# Processing.py: Learning Python the Visual Way
+# Processing Python Mode: Creative Coding Made Easy
 
-*The official source code for the examples, as well as solutions to challenges, for the book **Processing.py: Learning Python the Visual Way***
+*The official source code for the examples, as well as solutions to challenges, for the book **Processing Python Mode: Creative Coding Made Easy***
 
 Navigate through the directories listed above to find the code for the images displayed below.
 
