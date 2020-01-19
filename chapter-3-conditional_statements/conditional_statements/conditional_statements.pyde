@@ -1,24 +1,24 @@
 # booleans
 ball_is_red = True
 ball_is_spikey = False
-print(ball_is_red)        # displays: True
-print(ball_is_spikey)     # displays: False
-print(ball_is_red + True) # displays: 2
-print( bool(1) )          # displays: True
-print( bool(0) )          # displays: False
+print(ball_is_red)         # displays: True
+print(ball_is_spikey)      # displays: False
+print(ball_is_red + True)  # displays: 2
+print(bool(1))            # displays: True
+print(bool(0))            # displays: False
 
 # relational operators
 x = 2
-print( x > 1 ) # displays: True
-print( x < 1 ) # displays: False
+print(x > 1)  # displays: True
+print(x < 1)  # displays: False
 
 name = 'Jo'
-print( name == 'Jo' ) # displays: True
-print( name != 'Em' ) # displays: True
+print(name == 'Jo')  # displays: True
+print(name != 'Em')  # displays: True
 
 # if statements
 score = 0
-print( bool(not score) )
+print(bool(not score))
 
 if score < 0 or score > 100:
     print('INVALID SCORE')
