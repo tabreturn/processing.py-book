@@ -14,7 +14,7 @@ Navigate through the directories listed above to find the code for the images di
 
 ## Chapter 2: Drawing More Complicated Shapes
 
-<a href="chapter-2-drawing_more_complicated_shapes/curves"><img src="img/ch2-curves.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/vertices"><img src="img/ch2-vertices.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/python_logo"><img src="img/ch2-python_logo.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/strings"><img src="img/ch2-strings.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/typography"><img src="img/ch2-typography.png" height="200" /></a>
+<a href="chapter-2-drawing_more_complicated_shapes/curves"><img src="img/ch2-curves.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/vertices"><img src="img/ch2-vertices.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/python_logo"><img src="img/ch2-python_logo.png" height="200" /></a>
 
 ## Chapter 3: Text
 
