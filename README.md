@@ -1,6 +1,6 @@
 # Processing Python Mode: Creative Coding Made Easy
 
-*The official source code for the examples, as well as solutions to challenges, for the book *Processing Python Mode: Creative Coding Made Easy**
+The official source code for the examples, as well as solutions to challenges, for the book *Processing Python Mode: Creative Coding Made Easy*.
 
 ## Chapter 0: Introduction
 
@@ -40,4 +40,4 @@
 
 # Issues
 
-If you find any issues, you can report them here: https://github.com/tabreturn/processing.py-book/issues
+If you find any issues, you can report them here: https://github.com/tabreturn/processing.py-book/issues. You can email the author at processingpy@tabreturn.com.
