@@ -2,22 +2,24 @@
 # "Aquatics!" by Lieven Menschaert (using Johan Gielis' Superformula equations)
 # https://www.nodebox.net/code/index.php/Aquatics
 
-# setup sketch and spawn an aquatic
+
 def setup():
     size(500, 500)
     fillcolor = color(random(255),
-                    random(255),
-                    random(255),
-                    random(128,230))
+                      random(255),
+                      random(255),
+                      random(128, 230))
 
     # remove bubble and bgcolor arguments for a transparent perimeter
     aquatic = Aquatic(width/2, height/2, random(80, 130),
-                    fillcolor, bubble=True, bgcolor='#D7E1FA')
+                      fillcolor, bubble=True, bgcolor='#D7E1FA')
     aquatic.drawAquatic()
 
-def draw():pass
 
-# save image by pressing s key
+def draw():
+    pass
+
+
 def keyPressed():
     if key == 's':
         timestamp = ('{}-{}-{}'.format(hour(), minute(), second()))
@@ -26,7 +28,7 @@ def keyPressed():
 
 class Aquatic:
 
-    def __init__(self, x ,y, size, fillcolor, bubble=False, bgcolor=None):
+    def __init__(self, x, y, size, fillcolor, bubble=False, bgcolor=None):
         # main variables
         self.x = x
         self.y = y
@@ -78,7 +80,7 @@ class Aquatic:
             translate(eyex, eyey)
             rot = 0
 
-            for eyelash in range( int(random(3, 8)) ):
+            for eyelash in range(int(random(3, 8))):
                 randomrot = random(.2, .7)
                 rot += randomrot
                 rotate(randomrot)
@@ -115,8 +117,8 @@ class Aquatic:
                    xoff=0, yoff=0, xdistort=1, cw=True, mode='vertex'):
         # https://en.wikipedia.org/wiki/Superformula
         def superShapeVertex(angle):
-            t1 = pow( abs( (1.0/a) * cos(angle*m/4) ), n2 )
-            t2 = pow( abs( (1.0/b) * sin(angle*m/4) ), n3 )
+            t1 = pow(abs((1.0/a) * cos(angle*m/4)), n2)
+            t2 = pow(abs((1.0/b) * sin(angle*m/4)), n3)
             t3 = pow(t1+t2, 1.0/n1)
             x = (t3 * cos(angle) * xdistort * radius) + xoff
             y = (t3 * sin(angle) * radius) + yoff
@@ -156,7 +158,7 @@ class Aquatic:
         n2 = .5 + random(5)
         ba = random(.7, 1.2)
         bb = 1
-        bm = int( random(1, 30) )
+        bm = int(random(1, 30))
         bn3 = .5 + random(.5, -1.5)
         ma = random(.9, 1.1)
         mb = random(.9, 1.1)
@@ -198,7 +200,8 @@ class Aquatic:
         stroke(255, 255, 255)
         strokeWeight(self.s/8)
         beginShape()
-        self.superShape(bm, n1, n2, bn3, ba, bb, self.s-self.s/12, .5, TWO_PI-.5)
+        self.superShape(bm, n1, n2, bn3, ba, bb,
+                        self.s-self.s/12, .5, TWO_PI-.5)
         endShape()
         # body
         fill(self.r, self.g, self.b, 120)
@@ -213,7 +216,7 @@ class Aquatic:
         # freckles
         fill(self.r*1.8, self.g*1.8, self.b*1.8, 150)
         noStroke()
-        for i in range(10,200):
+        for i in range(10, 200):
             freckx = i/self.s*150 * sin(i*15) + random(1, 10)
             frecky = i/self.s*150 * cos(i*15) + random(1, 10)
             dotsize = random(1, 10)
@@ -223,7 +226,7 @@ class Aquatic:
         for char in chars:
             fill(self.r/2, self.g/2, self.b/2, 70)
             play = self.s/2
-            textSize( random(play/3, play/1.5) )
+            textSize(random(play/3, play/1.5))
             text(char, random(-play, play/2), random(-play*1.5, play*1.5))
         # background-colored mask
         fill(self.bg)
@@ -256,7 +259,7 @@ class Aquatic:
         self.superShape(bm, .98, 3, bn3, ma, mb, mradius, PI+HALF_PI, HALF_PI,
                         xoff=mxoff, xdistort=1.5, cw=False)
         endShape()
-        #hairs
+        # hairs
         if random(1) > .3:
             self.superShape(bm, n1, n2, bn3, ba, bb, self.s, .5, TWO_PI-.5,
                             mode='hair')
@@ -266,7 +269,7 @@ class Aquatic:
         # eye locations
         eyex = self.x-self.s-random(self.s/10)
 
-        for i in range( 3+int(random(10)) ):
+        for i in range(3+int(random(10))):
 
             if eyex < self.x+self.s-self.s/2:
                 eyex = eyex + random(-10, 10)
