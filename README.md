@@ -20,7 +20,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 ## Chapter 4: Conditional Statements
 
-<a href="chapter-4-conditional_statements/conditional_statements"><img src="img/ch2-conditional_statements.png" height="200" /></a> <a href="chapter-4-conditional_statements/four_square"><img src="img/ch2-four_square.png" height="200" /></a>
+<a href="chapter-4-conditional_statements/conditional_statements"><img src="img/ch4-conditional_statements.png" height="200" /></a> <a href="chapter-4-conditional_statements/four_square"><img src="img/ch4-four_square.png" height="200" /></a>
 
 ## Chapter 5: Iteration and Randomness
 
