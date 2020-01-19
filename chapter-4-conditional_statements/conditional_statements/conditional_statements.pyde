@@ -18,7 +18,6 @@ print(name != 'Em')  # displays: True
 
 # if statements
 score = 0
-print(bool(not score))
 
 if score < 0 or score > 100:
     print('INVALID SCORE')
