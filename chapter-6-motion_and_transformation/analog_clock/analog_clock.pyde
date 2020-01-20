@@ -20,21 +20,21 @@ def draw():
 
     # hour hand
     pushMatrix()
-    rotate(TAU/12 * h)
+    rotate(TAU / 12 * h)
     strokeWeight(10)
     line(0, 0, 100, 0)
     popMatrix()
 
     # minute hand
     pushMatrix()
-    rotate(TAU/60 * m)
+    rotate(TAU / 60 * m)
     strokeWeight(5)
     line(0, 0, 130, 0)
     popMatrix()
 
     # second hand
     pushMatrix()
-    rotate(TAU/60 * s)
+    rotate(TAU / 60 * s)
     strokeWeight(2.5)
     line(0, 0, 140, 0)
     popMatrix()

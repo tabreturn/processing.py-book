@@ -5,6 +5,7 @@
 # a function without arguments
 
 wait = 0
+#wait = 5000
 
 
 def printAnswer():

@@ -29,8 +29,8 @@ print(bricks[0])        # displays row 0 items
 print(bricks[0][0])     # displays the very first brick
 print(bricks[0][0][1])  # displays #FF0000
 
-bw = width/4
-bh = height/15
+bw = width / 4
+bh = height / 15
 translate(0, bh)
 
 for row in bricks:
