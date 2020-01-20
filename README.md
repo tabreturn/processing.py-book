@@ -24,7 +24,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 ## Chapter 5: Iteration and Randomness
 
-<a href="chapter-5-iteration_and_randomness/concentric_circles"><img src="img/ch5-concentric_circles.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/for_loop"><img src="img/ch5-for_loop.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/for_loop_patterns"><img src="img/ch5-for_loop_patterns.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/random_functions"><img src="img/ch5-random_functions.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/truchet_tiles"><img src="img/ch5-truchet_tiles.png" height="200" /></a>
+<a href="chapter-5-iteration_and_randomness/concentric_circles"><img src="img/ch5-concentric_circles.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/for_loop"><img src="img/ch5-for_loop.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/for_loop_patterns"><img src="img/ch5-for_loop_patterns.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/break_and_continue"><img src="img/ch5-break_and_continue.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/random_functions"><img src="img/ch5-random_functions.png" height="200" /></a> <a href="chapter-5-iteration_and_randomness/truchet_tiles"><img src="img/ch5-truchet_tiles.png" height="200" /></a>
 
 ## Chapter 6: Motion and Transformation
 
