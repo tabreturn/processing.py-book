@@ -17,7 +17,7 @@ for i in range(20, width, 20):
 
 for i in range(20, width, 20):
 
-    if red(get(i, 1)) == 255:
+    if red(get(i, 150)) == 255:
         break
 
     fill('#FF9900')
@@ -27,7 +27,7 @@ for i in range(20, width, 20):
 
 for i in range(20, width, 20):
 
-    if red(get(i, 1)) == 255:
+    if red(get(i, 225)) == 255:
         continue
 
     fill('#00FF00')
