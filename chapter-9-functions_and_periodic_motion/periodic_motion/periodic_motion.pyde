@@ -59,7 +59,8 @@ def draw():
     # multi dot wave
     for i in range(51):
         x = -400 + i * 16
-        t = theta + i * 0.25
+        frequency = 0.125 * 2
+        t = theta + i * frequency
         y = sin(t) * amplitude
         circle(x, y, 15)
 
