@@ -40,7 +40,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 ## Chapter 9: Functions and Periodic Motion
 
-<a href="chapter-9-functions_and_periodic_motion/speech_bubbles"><img src="img/ch9-speech_bubbles.png" height="200" /></a> <a href="chapter-9-functions_and_periodic_motion/periodic_motion"><img src="img/ch9-periodic_motion.png" height="200" /></a>
+<a href="chapter-9-functions_and_periodic_motion/speech_bubbles"><img src="img/ch9-speech_bubbles.png" height="200" /></a> <a href="chapter-9-functions_and_periodic_motion/periodic_motion"><img src="img/ch9-periodic_motion.png" height="200" /></a> <a href="chapter-9-functions_and_periodic_motion/lissajous_curves"><img src="img/ch9-lissajous_curves.png" height="200" /></a>
 
 
 # Issues
