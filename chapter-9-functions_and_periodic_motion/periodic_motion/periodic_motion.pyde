@@ -57,6 +57,7 @@ def draw():
     circle(0, y, 15)
 
     # multi dot wave
+    amplitude = radius
     for i in range(51):
         f = 0.125 * 2
         t = theta + i * f
@@ -65,6 +66,8 @@ def draw():
         circle(x, y, 15)
 
     # weight hanging from a spring
+    amplitude = radius
+    y = sin(theta) * amplitude
     noFill()
     stroke('#FFFFFF')
     strokeJoin(ROUND)
