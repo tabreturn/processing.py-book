@@ -40,7 +40,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 ## Miscellaneous
 
-<a href="chapter-0-introduction/digital_aquatics"><img src="img/ch0-digital_aquatics.png" height="200" /></a>
+<a href="miscellaneous/digital_aquatics"><img src="img/misc-digital_aquatics.png" height="200" /></a>
 
 # Issues
 
