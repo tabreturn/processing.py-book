@@ -2,10 +2,6 @@
 
 The official source code for the examples, as well as solutions to challenges, for the book *Processing Python Mode: Creative Coding Made Easy*.
 
-## Chapter 0: Introduction
-
-<a href="chapter-0-introduction/digital_aquatics"><img src="img/ch0-digital_aquatics.png" height="200" /></a>
-
 ## Chapter 1: Hello, World!
 
 <a href="chapter-1-hello,_world!/hello_world"><img src="img/ch1-hello_world.png" height="200" /></a> <a href="chapter-1-hello,_world!/primitives_2d"><img src="img/ch1-primitives_2d.png" height="200" /></a> <a href="chapter-1-hello,_world!/rainbow"><img src="img/ch1-rainbow.png" height="200" /></a> <a href="chapter-1-hello,_world!/variables"><img src="img/ch1-variables.png" height="200" /></a> <a href="chapter-1-hello,_world!/disk_space_analyzer"><img src="img/ch1-disk_space_analyzer.png" height="200" /></a>
@@ -42,6 +38,9 @@ The official source code for the examples, as well as solutions to challenges, f
 
 <a href="chapter-9-functions_and_periodic_motion/speech_bubbles"><img src="img/ch9-speech_bubbles.png" height="200" /></a> <a href="chapter-9-functions_and_periodic_motion/periodic_motion"><img src="img/ch9-periodic_motion.png" height="200" /></a> <a href="chapter-9-functions_and_periodic_motion/lissajous_curves"><img src="img/ch9-lissajous_curves.png" height="200" /></a>
 
+## Miscellaneous
+
+<a href="chapter-0-introduction/digital_aquatics"><img src="img/ch0-digital_aquatics.png" height="200" /></a>
 
 # Issues
 
