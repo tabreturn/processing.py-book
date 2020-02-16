@@ -11,9 +11,11 @@ print('How are you?')
 stroke('#FFFFFF')
 strokeWeight(3)
 
-# red rectangles
+# large red rectangle
 fill('#FF0000')
 rect(100, 150, 200, 300)
+
+# small red rectangle
 rect(10, 15, 20, 30)
 
 # orange square
