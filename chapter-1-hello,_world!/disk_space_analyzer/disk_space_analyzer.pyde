@@ -6,10 +6,10 @@ noFill()
 
 '''
 # arc examples
-arc(width/2,height/2, 200,200, 0,2)
-arc(width/2,height/2, 300,300, 0,PI)   # half-circle
-arc(width/2,height/2, 400,400, 0,PI*2) # full-circle
-arc(width/2,height/2, 350,350, 3.4,(PI*2)-(PI/2), PIE)
+arc(width/2, height/2, 200, 200, 0, 2)
+arc(width/2, height/2, 300, 300, 0, PI)    # half-circle
+arc(width/2, height/2, 400, 400, 0, PI*2)  # full-circle
+arc(width/2, height/2, 350, 350, 3.4, (PI*2)-(PI/2), PIE)
 '''
 
 ringwidth = 70
