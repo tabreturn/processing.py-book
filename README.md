@@ -12,7 +12,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 ## Chapter 3: Working with Text
 
-<a href="chapter-3-working-with-text/strings"><img src="img/ch3-strings.png" height="200" /></a> <a href="chapter-3-working-with-text/typography"><img src="img/ch3-typography.png" height="200" /></a>
+<a href="chapter-3-introduction-to-strings-and-working-with-text/strings"><img src="img/ch3-strings.png" height="200" /></a> <a href="chapter-3-introduction-to-strings-and-working-with-text"><img src="img/ch3-typography.png" height="200" /></a>
 
 ## Chapter 4: Conditional Statements
 
