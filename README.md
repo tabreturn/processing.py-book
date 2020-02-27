@@ -10,7 +10,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 <a href="chapter-2-drawing_more_complicated_shapes/curves"><img src="img/ch2-curves.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/vertices"><img src="img/ch2-vertices.png" height="200" /></a> <a href="chapter-2-drawing_more_complicated_shapes/python_logo"><img src="img/ch2-python_logo.png" height="200" /></a>
 
-## Chapter 3: Working with Text
+## Chapter 3: Introduction to Strings and Working with Text
 
 <a href="chapter-3-introduction_to_strings_and_working_with_text/strings"><img src="img/ch3-strings.png" height="200" /></a> <a href="chapter-3-introduction_to_strings_and_working_with_text"><img src="img/ch3-typography.png" height="200" /></a>
 
