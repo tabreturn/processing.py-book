@@ -13,6 +13,12 @@ print(all)
 # string formatting
 all = '{} {} {}'.format(greeting, whatsup, question)
 print(all)
+firstname = 'World'
+o2 = 21
+hi = "Hi! I'm " + firstname + ". My atmosphere is " + str(o2) + "% oxygen."
+print(hi)
+hi = "Hi! I'm {}. My atmosphere is {}% oxygen.".format(firstname, o2)
+print(hi)
 
 # length
 print(len(greeting))  # displays total number of characters (13)
