@@ -24,21 +24,23 @@ print(hi)
 print(len(greeting))  # displays total number of characters (13)
 
 # slice notation
-print(greeting[0])     # displays the first character (H)
-print(greeting[1])     # displays character at index 1 (e)
-print(greeting[1:4])   # displays: ell
-print(greeting[4:])    # displays: o, World!
-# everything from the fourth last character to the end of the string
-print(greeting[-4:])   # rld!
-# everything from index 0 up until the fourth last character
-print(greeting[:-4])   # Hello, Wo
-# everything from index 4 up until the fourth last character
-print(greeting[4:-4])  # o, Wo
+url = 'http://www.nostarch.com'
+print(url[0])      # displays: h
+print(url[1])      # displays: t
+print(url[0:7])    # displays: http://
+print(url[:7])     # displays: http://
+print(url[7:])     # displays: www.nostarch.com
+print(url[-3:])    # displays: com
+print(url[11:-4])  # displays: nostarch
 
 # sting methods
-print(greeting.upper())        # HELLO, WORLD!
-print(greeting.count('o'))     # 2
-print(greeting.count('or'))    # 1
-print(greeting.find('World'))  # 7
-print(greeting.find('lemon'))  # -1
-print(greeting.find('o', 6))   # 8
+print(url.upper())       # HTTP://WWW.NOSTARCH.COM
+print(url.count('w'))    # 3
+print(url.count('www'))  # 1
+css = url.find('://')    # 4
+protocol = url[:css]     # http
+dot1 = url.find('.')          # 10
+subdomain = url[css+3:dot1]   # www
+dot2 = url.find('.', dot1+1)  # 19
+tld = url[dot2 + 1:]          # com
+domain = url[dot1+1:dot2]     # nostarch
