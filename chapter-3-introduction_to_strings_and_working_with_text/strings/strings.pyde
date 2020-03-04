@@ -38,7 +38,7 @@ print(url.upper())       # HTTP://WWW.NOSTARCH.COM
 print(url.count('w'))    # 3
 print(url.count('www'))  # 1
 css = url.find('://')    # 4
-protocol = url[:css]     # http
+scheme = url[:css]       # http
 dot1 = url.find('.')          # 10
 subdomain = url[css+3:dot1]   # www
 dot2 = url.find('.', dot1+1)  # 19
