@@ -17,7 +17,7 @@ line(
 )
 
 print(PFont.list())
-seriffont = createFont('Times-Roman', 20)
+seriffont = createFont('Cambria', 20)
 textFont(seriffont)
 text(pangram, 0, 150)
 
