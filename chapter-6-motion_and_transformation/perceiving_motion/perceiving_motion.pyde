@@ -12,7 +12,7 @@ def draw():
     hide = frameCount % 8
 
     if hide != 0:
-        circle(250, 80,  80)
+        circle(250, 80, 80)
     if hide != 1:
         circle(370, 130, 80)
     if hide != 2:
@@ -24,6 +24,6 @@ def draw():
     if hide != 5:
         circle(130, 370, 80)
     if hide != 6:
-        circle(80, 250,  80)
+        circle(80, 250, 80)
     if hide != 7:
         circle(130, 130, 80)
