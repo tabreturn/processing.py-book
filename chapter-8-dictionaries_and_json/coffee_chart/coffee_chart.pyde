@@ -2,7 +2,7 @@ import json
 jsondata = open('coffees.json')
 coffees = json.load(jsondata)
 
-print(coffees[8]['ingredients'][1][1])  # 40
+print(coffees[8]['ingredients'][1]['quantity'])  # 40
 
 size(800, 800)
 background('#004477')
@@ -16,8 +16,8 @@ for coffee in coffees:
     pushMatrix()
 
     for ingredient in coffee['ingredients']:
-        ml = ingredient[1]
-        fill(ingredient[2])
+        ml = ingredient['quantity']
+        fill(ingredient['color'])
         noStroke()
         rect(0, mug-ml, mug, ml)
         translate(0, -ml)
