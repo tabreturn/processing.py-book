@@ -1,66 +1,66 @@
 [
-  { 
-    "name": "Espresso", 
+  {
+    "name": "Espresso",
     "ingredients": [
-      ["espresso",    30, "#221100"]
+      {"ingredient":"espresso",    "quantity":30, "color":"#221100"}
     ]
   },
-  { 
+  {
     "name": "Espresso Doppio",
     "ingredients": [
-      ["espresso",    60, "#221100"]
+      {"ingredient":"espresso",    "quantity":60, "color":"#221100"}
     ]
   },
-    { 
-    "name": "Cafe Macchiato", 
+    {
+    "name": "Cafe Macchiato",
     "ingredients": [
-      ["espresso",    60, "#221100"], 
-      ["foamedmilk",  10, "#DDDDCC"]
+      {"ingredient":"espresso",    "quantity":60, "color":"#221100"},
+      {"ingredient":"foamedmilk",  "quantity":10, "color":"#DDDDCC"}
     ]
   },
-  { 
+  {
     "name": "Cafe Cortado",
     "ingredients": [
-      ["espresso",    60, "#221100"], 
-      ["foamedmilk",  30, "#DDDDCC"]
+      {"ingredient":"espresso",    "quantity":60, "color":"#221100"},
+      {"ingredient":"foamedmilk",  "quantity":30, "color":"#DDDDCC"}
     ]
   },
-  { 
-    "name": "Capucchino", 
+  {
+    "name": "Capucchino",
     "ingredients": [
-      ["espresso",    40, "#221100"], 
-      ["steamedmilk", 40, "#FFFFFF"],
-      ["foamedmilk",  40, "#DDDDCC"]
+      {"ingredient":"espresso",    "quantity":40, "color":"#221100"},
+      {"ingredient":"steamedmilk", "quantity":40, "color":"#FFFFFF"},
+      {"ingredient":"foamedmilk",  "quantity":40, "color":"#DDDDCC"}
     ]
   },
-  { 
-    "name": "Americano", 
+  {
+    "name": "Americano",
     "ingredients": [
-      ["espresso",    50, "#221100"], 
-      ["hotwater",    60, "#0099FF"]
+      {"ingredient":"espresso",    "quantity":50, "color":"#221100"},
+      {"ingredient":"hotwater",    "quantity":60, "color":"#0099FF"}
     ]
   },
-  { 
-    "name": "Black Eye", 
+  {
+    "name": "Black Eye",
     "ingredients": [
-      ["espresso",    50, "#221100"], 
-      ["brewedcoffee",50, "#443322"]
+      {"ingredient":"espresso",    "quantity":50, "color":"#221100"},
+      {"ingredient":"brewedcoffee","quantity":50, "color":"#443322"}
     ]
   },
-  { 
-    "name": "Mocha", 
+  {
+    "name": "Mocha",
     "ingredients": [
-      ["espresso",    50, "#221100"], 
-      ["chocolate",   50, "#AA6644"], 
-      ["steamedmilk", 20, "#FFFFFF"]
+      {"ingredient":"espresso",    "quantity":50, "color":"#221100"},
+      {"ingredient":"chocolate",   "quantity":50, "color":"#AA6644"},
+      {"ingredient":"steamedmilk", "quantity":20, "color":"#FFFFFF"}
     ]
   },
-  { 
-    "name": "Irish Coffee", 
+  {
+    "name": "Irish Coffee",
     "ingredients": [
-      ["espresso",    60, "#221100"], 
-      ["whiskey",     40, "#FFCC77"], 
-      ["whippedcream",20, "#FFFFFF"]
+      {"ingredient":"espresso",    "quantity":60, "color":"#221100"},
+      {"ingredient":"whiskey",     "quantity":40, "color":"#FFCC77"},
+      {"ingredient":"whippedcream","quantity":20, "color":"#FFFFFF"}
     ]
   }
 ]
