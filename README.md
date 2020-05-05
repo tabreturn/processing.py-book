@@ -38,6 +38,10 @@ The official source code for the examples, as well as solutions to challenges, f
 
 <a href="chapter-09-functions_and_periodic_motion/speech_bubbles"><img src="img/ch09-speech_bubbles.png" height="200" /></a> <a href="chapter-09-functions_and_periodic_motion/periodic_motion"><img src="img/ch09-periodic_motion.png" height="200" /></a> <a href="chapter-09-functions_and_periodic_motion/lissajous_curves"><img src="img/ch09-lissajous_curves.png" height="200" /></a>
 
+## Chapter 10: Object-Oriented Programming and PVector
+
+<a href="chapter-10-object-oriented_programming_and_pvector/microscopic"><img src="img/ch10-microscopic.png" height="200" /></a>
+
 ## Miscellaneous
 
 <a href="miscellaneous/digital_aquatics"><img src="img/misc-digital_aquatics.png" height="200" /></a>
