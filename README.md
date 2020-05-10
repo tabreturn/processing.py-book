@@ -42,6 +42,10 @@ The official source code for the examples, as well as solutions to challenges, f
 
 <a href="chapter-10-object-oriented_programming_and_pvector/microscopic"><img src="img/ch10-microscopic.png" height="200" /></a>
 
+## Chapter 11: Mouse and Keyboard Interaction
+
+<a href="chapter-11-mouse_and_keyboard_interaction/scratch_art"><img src="img/ch11-scratch_art.png" height="200" /></a>
+
 ## Miscellaneous
 
 <a href="miscellaneous/digital_aquatics"><img src="img/misc-digital_aquatics.png" height="200" /></a>
