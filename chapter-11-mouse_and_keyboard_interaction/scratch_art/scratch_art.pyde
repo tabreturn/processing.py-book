@@ -4,6 +4,7 @@ def setup():
     background('#000000')
     stroke('#FFFFFF')
 
+
 def draw():
     colorMode(HSB, 360, 100, 100)
     h = mouseX * 360.0 / width
@@ -11,7 +12,6 @@ def draw():
     b = 100
     stroke(h, s, b)
     strokeWeight(15)
-    
+
     if mousePressed and mouseButton == LEFT:
         line(mouseX, mouseY, pmouseX, pmouseY)
-    
