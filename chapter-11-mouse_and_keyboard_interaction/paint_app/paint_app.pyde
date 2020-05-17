@@ -89,7 +89,7 @@ def keyPressed():
     global brushcolor, paintmode
     paintmode = 'select'
     # color swatch shortcuts
-    if key.isdigit():
+    if str(key).isdigit():
         k = int(key) - 1
         if k < len(swatches):
             brushcolor = swatches[k]
