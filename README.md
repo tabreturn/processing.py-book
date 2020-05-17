@@ -44,7 +44,7 @@ The official source code for the examples, as well as solutions to challenges, f
 
 ## Chapter 11: Mouse and Keyboard Interaction
 
-<a href="chapter-11-mouse_and_keyboard_interaction/scratch_art"><img src="img/ch11-scratch_art.png" height="200" /></a>
+<a href="chapter-11-mouse_and_keyboard_interaction/scratch_art"><img src="img/ch11-scratch_art.png" height="200" /></a><a href="chapter-11-mouse_and_keyboard_interaction/paint_app"><img src="img/ch11-paint_app.png" height="200" /></a>
 
 ## Miscellaneous
 
