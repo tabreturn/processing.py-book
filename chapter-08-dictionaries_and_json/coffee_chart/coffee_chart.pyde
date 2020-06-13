@@ -14,14 +14,13 @@ translate(100, 100)
 for coffee in coffees:
     # ingredients goes here
     pushMatrix()
-
+    translate(0, mug)
     for ingredient in coffee['ingredients']:
         ml = ingredient['quantity']
         fill(ingredient['color'])
         noStroke()
-        rect(0, mug-ml, mug, ml)
+        rect(0, 0, mug, -ml)
         translate(0, -ml)
-
     popMatrix()
 
     # mug
