@@ -39,6 +39,7 @@ for row in bricks:
     for col, brick in enumerate(row):
         
         if len(brick):
+            # code to draw a brick
             x = col * bw
             fill(brick[0])
             rect(x, 0, bw, bh)
