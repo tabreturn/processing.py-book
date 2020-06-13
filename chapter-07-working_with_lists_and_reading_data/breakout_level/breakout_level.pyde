@@ -37,9 +37,9 @@ translate(0, bh)
 for row in bricks:
 
     for col, brick in enumerate(row):
-        x = col * bw
         
         if len(brick):
+            x = col * bw
             fill(brick[0])
             rect(x, 0, bw, bh)
     
