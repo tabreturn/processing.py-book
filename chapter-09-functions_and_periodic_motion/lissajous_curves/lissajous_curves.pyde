@@ -6,6 +6,7 @@ def lissajousPoint(t, A, B, a, b):
 
 def setup():
     size(800, 600)
+    frameRate(30)
     background('#004477')
     fill('#FFFFFF')
     noStroke()
@@ -29,13 +30,13 @@ def draw():
 
     # screensaver
 
-    for i in range(15):
+    for i in range(10):
         # curves
         t = theta + i / 15.0
         x1, y1 = lissajousPoint(t, 300, 150, 3, 1)
         x2, y2 = lissajousPoint(t, 250, 220, 1, 3)
         # background color
-        fill(0x44000000)
+        fill(0x55000000)
         noStroke()
         rect(-width/2, -height/2, width, height)
         # line
