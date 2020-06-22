@@ -1,6 +1,6 @@
-# Processing Python Mode: Creative Coding Made Easy
+# Python Mode for Processing: Creative Coding Made Easy
 
-The official source code for the examples, as well as solutions to challenges, for the book *Processing Python Mode: Creative Coding Made Easy*.
+The official source code for the examples, as well as solutions to challenges, for the book *Python Mode for Processing: Creative Coding Made Easy*.
 
 ## Chapter 1: Hello, World!
 
