@@ -50,8 +50,8 @@ def draw():
             sumradii = a.d/2 + b.d/2
 
             if distance.mag() < sumradii:
-                a.propulsion -= (distance * -1).limit(0.05)
-                b.propulsion += (distance * -1).limit(0.05)
+                a.propulsion += distance.limit(0.05)
+                b.propulsion -= distance.limit(0.05)
 
                 # draw a line between the centers of colliding amoeba
                 line(a.location.x, a.location.y, b.location.x, b.location.y)
