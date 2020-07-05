@@ -36,19 +36,18 @@ def draw():
 
     # black panel
     noStroke()
-    fill('#000000'); rect(0, 0, palette, height)
+    fill('#000000')
+    rect(0, 0, palette, height)
     # color swatches
-    p, p2 = palette, palette/2
-    fill(swatches[0]); square(0, 0, p2)
-    fill(swatches[1]); square(p2, 0, p2)
-    fill(swatches[2]); square(0, p2, p2)
-    fill(swatches[3]); square(p2, p2, p2)
-    fill(swatches[4]); square(0, p, p2)
-    fill(swatches[5]); square(p2, p, p2)
+    for (i, swatch) in enumerate(swatches):
+        sx = int(i%2) * palette/2
+        sy = int(i/2) * palette/2
+        fill(swatch)
+        square(sx, sy, palette/2)
     # brush preview
     fill(brushcolor)
     if brushshape == ROUND:
-        circle(30, 123, brushsize)
+        circle(palette/2, 123, brushsize)
     paintmode = 'free'
     # clear button
     fill('#FFFFFF')
@@ -98,6 +97,6 @@ def keyPressed():
 
 def mouseClicked():
     # clear canvas
-    if mouseButton == LEFT and mouseX < 60 and mouseY > height-30:
+    if mouseButton == LEFT and mouseX < palette and mouseY > height-30:
         fill('#004477')
         rect(palette, 0, width, height)
