@@ -57,13 +57,13 @@ class Aquatic:
             stroke(self.r, self.g/2, self.b, 140)
 
         strokeWeight(2)
-        ellipse(pupilx, pupily, s*2, s*2)
+        circle(pupilx, pupily, s*2)
 
         # pupil
         fill(1)
         stroke(0)
         strokeWeight(5)
-        ellipse(pupilx, pupily, s/2, s/2)
+        circle(pupilx, pupily, s/2)
 
     def drawEyeLid(self, eyex, eyey, eyesize):
         fill(self.r, self.g, self.b, random(200, 240))
@@ -92,14 +92,14 @@ class Aquatic:
         # eye
         fill(255)
         strokeWeight(2)
-        ellipse(eyex, eyey, eyesize*2, eyesize*2)
+        circle(eyex, eyey, eyesize*2)
         self.drawIrisPupil(eyex, eyey, eyesize)
         # eye shine
         fill(255)
         noStroke()
         shinexy = eyesize/4
         shinesize = eyesize/2.5
-        ellipse(eyex-shinexy, eyey-shinexy, shinesize, shinesize)
+        circle(eyex-shinexy, eyey-shinexy, shinesize)
 
         # eyelid
         if random(1) > .5:
@@ -172,10 +172,8 @@ class Aquatic:
             noStroke()
             fill(255, 255, 255)
             bs = self.s * 0.8
-            ellipse(self.x+random(-bs, bs), self.y+random(-bs, bs),
-                    bs, bs)
-            ellipse(self.x+random(-bs, bs), self.y+random(-bs, bs),
-                    self.s/2, self.s/2)
+            circle(self.x+random(-bs, bs), self.y+random(-bs, bs), bs)
+            circle(self.x+random(-bs, bs), self.y+random(-bs, bs), self.s/2)
 
         # nucleus
         rot = random(-PI, PI)
@@ -187,7 +185,7 @@ class Aquatic:
         stroke(self.r/2, self.g/2, self.b/2, 80)
         ellipse(0, 0, self.s/random(1, 3), self.s/random(1, 3))
         fill(self.r/3, self.g/3, self.b/3, 120)
-        ellipse(0, 0, self.s/6, self.s/6)
+        circle(0, 0, self.s/6)
         rotate(-rot)
         translate(-xoff, -yoff)
 
@@ -220,7 +218,7 @@ class Aquatic:
             freckx = i/self.s*150 * sin(i*15) + random(1, 10)
             frecky = i/self.s*150 * cos(i*15) + random(1, 10)
             dotsize = random(1, 10)
-            ellipse(freckx, frecky, dotsize, dotsize)
+            circle(freckx, frecky, dotsize)
         # characters
         chars = 's*.~_.)`:;*"-'
         for char in chars:
