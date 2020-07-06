@@ -103,7 +103,7 @@ class Aquatic:
 
         # eyelid
         if random(1) > .5:
-            cover = self.drawEyeLid(eyex, eyey, eyesize)
+            self.drawEyeLid(eyex, eyey, eyesize)
 
     def drawHair(self, hairx, hairy, hairlength, angle):
         tipx = cos(angle) * hairlength
