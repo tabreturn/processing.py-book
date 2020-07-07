@@ -162,8 +162,6 @@ class Aquatic:
         bn3 = .5 + random(.5, -1.5)
         ma = random(.9, 1.1)
         mb = random(.9, 1.1)
-        mm = 4 + random(20)
-        mn3 = .81 + random(-.8, .8)
         mradius = self.s * random(.2, .4)
         mxoff = self.s / random(.9, 1.1)
 
