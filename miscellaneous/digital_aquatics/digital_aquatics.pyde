@@ -159,7 +159,7 @@ class Aquatic:
         ba = random(.7, 1.2)
         bb = 1
         bm = int(random(1, 30))
-        bn3 = .5 + random(.5, -1.5)
+        bn3 = 1 + random(-0.3, 0.3) # variation control
         ma = random(.9, 1.1)
         mb = random(.9, 1.1)
         mradius = self.s * random(.2, .4)
