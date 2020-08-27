@@ -1,8 +1,8 @@
 # booleans
 ball_is_red = True
-ball_is_spikey = False
+ball_is_spiky = False
 print(ball_is_red)         # displays: True
-print(ball_is_spikey)      # displays: False
+print(ball_is_spiky)       # displays: False
 print(ball_is_red + True)  # displays: 2
 print(bool(1))            # displays: True
 print(bool(0))            # displays: False
