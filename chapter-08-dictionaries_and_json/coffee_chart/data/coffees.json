@@ -26,7 +26,7 @@
     ]
   },
   {
-    "name": "Capucchino",
+    "name": "Cappuccino",
     "ingredients": [
       {"ingredient":"espresso",    "quantity":40, "color":"#221100"},
       {"ingredient":"steamedmilk", "quantity":40, "color":"#FFFFFF"},
