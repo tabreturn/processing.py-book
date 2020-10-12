@@ -37,7 +37,7 @@ for coffee in coffees:
     label = coffee['name']
     text(label, mug/2-textWidth(label)/2, mug+40)
 
-    if col % 3 == 0:
+    if col == 3:
         translate(spacing*-2, spacing)
         col = 1
     else:
