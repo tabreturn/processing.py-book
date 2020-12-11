@@ -39,7 +39,7 @@ def draw():
     fill('#000000')
     rect(0, 0, palette, height)
     # color swatches
-    for (i, swatch) in enumerate(swatches):
+    for i, swatch in enumerate(swatches):
         sx = int(i%2) * palette/2
         sy = int(i/2) * palette/2
         fill(swatch)
