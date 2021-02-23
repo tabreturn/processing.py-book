@@ -1,6 +1,6 @@
-# Learn Python Visually – Creative Coding with Python Mode for Processing
+# Learn Python Visually – Creative Coding in Processing.py
 
-The official source code for the examples, as well as solutions to challenges, for the book *Learn Python Visually – Creative Coding with Python Mode for Processing*.
+The official source code for the examples, as well as solutions to challenges, for the book *Learn Python Visually – Creative Coding in Processing.py*.
 
 ## Chapter 1: Hello, World!
 
