@@ -5,7 +5,7 @@ amoebas = []
 for i in range(8):
     diameter = random(50, 200)
     speed = 1000 / (diameter * 50)
-    x, y = random(800), random(500)
+    x, y = random(800), random(400)
     amoebas.append(Amoeba(x, y, diameter, speed, speed))
 
 current = PVector(0.1, -0.2)
