@@ -5,9 +5,9 @@
 
 def setup():
     size(500, 500)
-    fillcolor = color(random(255),
-                      random(255),
-                      random(255),
+    fillcolor = color(random(256),
+                      random(256),
+                      random(256),
                       random(128, 230))
 
     # remove bubble and bgcolor arguments for a transparent perimeter
